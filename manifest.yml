@@ -1,0 +1,5 @@
+applications:
+- name: fedex-pks-workshop
+  memory: 1G
+  instances: 1
+  path: target/fedex-pks-workshop-0.0.1-SNAPSHOT.jar
