@@ -12,11 +12,6 @@ public class StaticController {
 	@RequestMapping(value = "", method=RequestMethod.GET)
 	public String index(Model model) {
 		return "index";
-	}
-
-	@RequestMapping(value="/workshop", method=RequestMethod.GET)
-	public String workshop(Model model) {
-		return "workshop";
 	}	
 
 }
